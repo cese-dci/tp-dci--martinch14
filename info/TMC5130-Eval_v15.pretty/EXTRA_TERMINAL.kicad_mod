@@ -1,0 +1,8 @@
+(module EXTRA_TERMINAL (layer F.Cu) (tedit 0)
+  (fp_text reference TERM2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value AKL_330_2_POL_TERMINAL (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+)

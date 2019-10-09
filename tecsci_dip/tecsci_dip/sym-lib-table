@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name TMC5130-Eval_v15-eagle-import)(type Legacy)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/info/TMC5130-Eval_v15-eagle-import.lib)(options "")(descr ""))
+  (lib (name Ponchobrücke-cache)(type Legacy)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/info/Ponchobrücke-cache.lib)(options "")(descr ""))
+)
