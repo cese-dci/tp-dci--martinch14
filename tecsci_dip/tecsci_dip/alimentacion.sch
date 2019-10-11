@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Ponchobrücke-cache:Regulator_Controller_LM5161 U301
-U 1 1 5D9BFA46
-P 4200 3850
-F 0 "U301" H 4200 4491 39  0000 C CNN
-F 1 "Regulador_LM5161" H 4200 4416 39  0000 C CNN
-F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 4200 3850 39  0001 C CNN
-F 3 "" H 4200 3850 39  0001 C CNN
-	1    4200 3850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C303
 U 1 1 5D9C122C
 P 3200 4150
@@ -599,4 +588,17 @@ Wire Wire Line
 Wire Wire Line
 	10300 3450 10300 3550
 Connection ~ 10300 3550
+$Comp
+L Ponchobrücke-cache:Regulator_Controller_LM5161 U301
+U 1 1 5D9BFA46
+P 4200 3850
+F 0 "U301" H 4200 4491 39  0000 C CNN
+F 1 "Regulador_LM5161" H 4200 4416 39  0000 C CNN
+F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 4200 3850 39  0001 C CNN
+F 3 "" H 4200 3850 39  0001 C CNN
+	1    4200 3850
+	1    0    0    -1  
+$EndComp
+Text Notes 1400 1550 0    50   Italic 10
+Etapa Reguladora de Tensión\nEntrada 24-46Volt\nSalida 5V\nSalida 3V
 $EndSCHEMATC
