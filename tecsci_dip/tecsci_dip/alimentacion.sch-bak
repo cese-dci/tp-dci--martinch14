@@ -477,17 +477,6 @@ Wire Wire Line
 Connection ~ 2550 3850
 Wire Wire Line
 	2550 3850 2550 4750
-$Comp
-L Ponchobrücke-cache:Regulator_Controller_LM5161 U301
-U 1 1 5D9BFA46
-P 5400 3800
-F 0 "U301" H 5400 4441 39  0000 C CNN
-F 1 "Regulador_LM5161" H 5400 4366 39  0000 C CNN
-F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 5400 3800 39  0001 C CNN
-F 3 "" H 5400 3800 39  0001 C CNN
-	1    5400 3800
-	1    0    0    -1  
-$EndComp
 Text Notes 1400 1550 0    87   Italic 17
 Etapa Reguladora de Tensión\nEntrada 24-46Volt\nSalida 5V hacia integrado TMC130\nSalida 5V hacia microcontrolador con diodo de protección
 $Comp
@@ -535,4 +524,16 @@ Wire Wire Line
 Connection ~ 10050 3500
 Wire Wire Line
 	8350 3500 9050 3500
+$Comp
+L Ponchobrücke-cache:Regulator_Controller_LM5161 U301
+U 1 1 5D9BFA46
+P 5400 3800
+F 0 "U301" H 5400 4441 39  0000 C CNN
+F 1 "Regulador_LM5161" H 5400 4366 39  0000 C CNN
+F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 5400 3800 39  0001 C CNN
+F 3 "" H 5400 3800 39  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4900 3800
 $EndSCHEMATC

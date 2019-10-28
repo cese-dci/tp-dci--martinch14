@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name TMC5130-Eval_v15-eagle-import)(type Legacy)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/info/TMC5130-Eval_v15-eagle-import.lib)(options "")(descr ""))
-  (lib (name Ponchobrücke-cache)(type Legacy)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/info/Ponchobrücke-cache.lib)(options "")(descr ""))
-  (lib (name 2019-10-26_21-21-06)(type Legacy)(uri ${KIPRJMOD}/modelos3D/UL_TMC5130ATA/KiCAD/2019-10-26_21-21-06/2019-10-26_21-21-06.lib)(options "")(descr ""))
+  (lib (name TMC5130-Eval_v15-eagle-import)(type Legacy)(uri ${KIPRJMOD}/footprints/TMC5130-Eval_v15-eagle-import.lib)(options "")(descr ""))
+  (lib (name Ponchobrücke-cache)(type Legacy)(uri ${KIPRJMOD}/footprints/Ponchobrücke-cache.lib)(options "")(descr ""))
 )

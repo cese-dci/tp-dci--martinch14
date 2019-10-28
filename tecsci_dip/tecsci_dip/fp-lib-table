@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name TMC5130-Eval_v15)(type KiCad)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/info/TMC5130-Eval_v15.pretty)(options "")(descr ""))
+  (lib (name TMC5130-Eval_v15)(type KiCad)(uri /home/martin/Escritorio/KiCadProject/tecsci_dipcoater_github/tecsci_dip/tecsci_dip/footprints/TMC5130-Eval_v15.pretty)(options "")(descr ""))
 )
