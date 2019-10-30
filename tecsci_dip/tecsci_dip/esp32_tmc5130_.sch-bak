@@ -21,7 +21,10 @@ P 7300 4000
 F 0 "IC201" H 7300 5886 59  0000 C CNN
 F 1 "TMC5130" H 7300 5781 59  0000 C CNN
 F 2 "TMC5130-Eval_v15:QFP50P900X900X113-49N_NOFID" H 7300 4000 50  0001 C CNN
-F 3 "" H 7300 4000 50  0001 C CNN
+F 3 "https://www.trinamic.com/_scripts/download.php?file=_articles%2Fproducts%2Fintegrated-circuits%2Ftmc5130%2F_datasheet%2FTMC5130_datasheet.pdf" H 7300 4000 50  0001 C CNN
+F 4 "1460-1124-ND " H 7300 4000 50  0001 C CNN "digikey#"
+F 5 "Trinamic Motion Control GmbH" H 7300 4000 50  0001 C CNN "manf"
+F 6 "TMC5130A-TA" H 7300 4000 50  0001 C CNN "manf#"
 	1    7300 4000
 	1    0    0    -1  
 $EndComp
@@ -163,7 +166,10 @@ P 5900 3100
 F 0 "C205" V 5648 3100 50  0000 C CNN
 F 1 "4.7uF" V 5739 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 5938 2950 50  0001 C CNN
-F 3 "~" H 5900 3100 50  0001 C CNN
+F 3 "https://api.kemet.com/component-edge/download/datasheet/C0805C475K4RACAUTO.pdf" H 5900 3100 50  0001 C CNN
+F 4 "399-15711-2-ND " H 5900 3100 50  0001 C CNN "digikey#"
+F 5 "KEMET" H 5900 3100 50  0001 C CNN "manf"
+F 6 "C0805C475K4RACAUTO" H 5900 3100 50  0001 C CNN "manf#"
 	1    5900 3100
 	0    1    1    0   
 $EndComp
@@ -698,7 +704,7 @@ U 1 1 5DB8C4C0
 P 10200 1600
 F 0 "C201" H 10250 1800 50  0000 L CNN
 F 1 "100uF" H 10250 1700 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 10238 1450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" H 10238 1450 50  0001 C CNN
 F 3 "~" H 10200 1600 50  0001 C CNN
 	1    10200 1600
 	1    0    0    -1  
