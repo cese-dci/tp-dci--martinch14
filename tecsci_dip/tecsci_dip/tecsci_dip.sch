@@ -7,12 +7,12 @@ encoding utf-8
 Sheet 1 3
 Title "Dip Coater"
 Date "2019-10-02"
-Rev "1"
-Comp "Tecsci  Tecnología para Ciencia"
-Comment1 "Martin Abel Gambarotta"
+Rev "2"
+Comp "Tecsci  Tecnología para Ciencia                            Licensed under CERN OHL v.1.2"
+Comment1 "Ing. Electrónico Martin Abel Gambarotta"
 Comment2 ""
 Comment3 "Revisor: Mariano Campos"
-Comment4 ""
+Comment4 "Revisor: Diego Brengi"
 $EndDescr
 $Sheet
 S 2450 3850 2250 1550
@@ -73,12 +73,12 @@ $EndComp
 $Comp
 L Graphic:Logo_Open_Hardware_Small OSHWA101
 U 1 1 5DB645A4
-P 10750 6850
-F 0 "OSHWA101" H 10750 7125 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 10750 6625 50  0001 C CNN
-F 2 "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen" H 10750 6850 50  0001 C CNN
-F 3 "~" H 10750 6850 50  0001 C CNN
-	1    10750 6850
+P 10400 6800
+F 0 "OSHWA101" H 10400 7075 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10400 6575 50  0001 C CNN
+F 2 "Symbol:OSHW-Symbol_8.9x8mm_SilkScreen" H 10400 6800 50  0001 C CNN
+F 3 "~" H 10400 6800 50  0001 C CNN
+	1    10400 6800
 	1    0    0    -1  
 $EndComp
 $Comp

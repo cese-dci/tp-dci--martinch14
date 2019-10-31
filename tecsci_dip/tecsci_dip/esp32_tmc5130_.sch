@@ -7,12 +7,12 @@ encoding utf-8
 Sheet 2 3
 Title "Dip Coater - ESP32  TMC5130"
 Date "2019-10-02"
-Rev "1"
-Comp "Tecsci"
-Comment1 "Martin Abel Gambarotta"
-Comment2 "Revisor: Mariano Campos"
-Comment3 ""
-Comment4 ""
+Rev "2"
+Comp "Tecsci  Tecnología para Ciencia                            Licensed under CERN OHL v.1.2"
+Comment1 "Ing. Electrónico  Martin Abel Gambarotta"
+Comment2 ""
+Comment3 "Revisor: Diego Brengi"
+Comment4 "Revisor: Mariano Campos"
 $EndDescr
 $Comp
 L TMC5130-Eval_v15-eagle-import:TMC5130 IC201
@@ -100,7 +100,10 @@ P 8900 1650
 F 0 "D201" V 9150 1650 42  0000 R CNN
 F 1 "SMBJ43A" V 9050 1650 42  0000 R CNN
 F 2 "TMC5130-Eval_v15:SMB" H 8900 1650 50  0001 C CNN
-F 3 "" H 8900 1650 50  0001 C CNN
+F 3 "https://www.taiwansemi.com/products/datasheet/SMBJ%20SERIES_P1812.pdf" H 8900 1650 50  0001 C CNN
+F 4 "SMBJ43AFSTR-ND" H 8900 1650 50  0001 C CNN "digikey#"
+F 5 "Taiwan Semiconductor Corporation" H 8900 1650 50  0001 C CNN "manf"
+F 6 "SMBJ43A" H 8900 1650 50  0001 C CNN "manf#"
 	1    8900 1650
 	0    -1   -1   0   
 $EndComp

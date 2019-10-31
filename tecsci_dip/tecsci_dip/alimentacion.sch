@@ -8,11 +8,11 @@ Sheet 3 3
 Title "Dip Coater - Alimentación"
 Date "2019-10-02"
 Rev "1"
-Comp "Tecsci"
-Comment1 "Martin Abel Gambarotta"
-Comment2 "Revisor: Mariano Campos"
-Comment3 ""
-Comment4 ""
+Comp "Tecsci  Tecnología para Ciencia                            Licensed under CERN OHL v.1.2"
+Comment1 "Ing. Electrónico Martin Abel Gambarotta"
+Comment2 ""
+Comment3 "Revisor: Mariano Campos"
+Comment4 "Revisor: Diego Brengi"
 $EndDescr
 $Comp
 L Device:C C303
@@ -98,7 +98,10 @@ P 7150 3500
 F 0 "L301" V 7351 3500 39  0000 C CNN
 F 1 "SRU8043" V 7276 3500 39  0000 C CNN
 F 2 "Inductor_SMD:L_Bourns-SRU8043" H 7150 3500 50  0001 C CNN
-F 3 "" H 7150 3500 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/SRU8043.pdf" H 7150 3500 50  0001 C CNN
+F 4 "SRU8043-100YTR-ND" H 7150 3500 50  0001 C CNN "digikey#"
+F 5 "Bourns Inc." H 7150 3500 50  0001 C CNN "manf"
+F 6 "SRU8043-100Y" H 7150 3500 50  0001 C CNN "manf#"
 	1    7150 3500
 	0    -1   -1   0   
 $EndComp
@@ -128,8 +131,8 @@ $Comp
 L Device:R R303
 U 1 1 5D9C7F28
 P 4300 3500
-F 0 "R303" V 4093 3500 50  0000 C CNN
-F 1 "150k" V 4184 3500 50  0000 C CNN
+F 0 "R303" V 4050 3500 50  0000 C CNN
+F 1 "150k" V 4150 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" V 4230 3500 50  0001 C CNN
 F 3 "~" H 4300 3500 50  0001 C CNN
 	1    4300 3500
@@ -487,6 +490,10 @@ F 0 "D301" H 9500 3284 50  0000 C CNN
 F 1 "PMEG6010CEH" H 9500 3375 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 9500 3325 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" H 9500 3500 50  0001 C CNN
+F 4 "1727-3848-2-ND	
+" H 9500 3500 50  0001 C CNN "digikey#"
+F 5 "Nexperia USA Inc." H 9500 3500 50  0001 C CNN "manf"
+F 6 "PMEG6010CEH,115" H 9500 3500 50  0001 C CNN "manf#"
 	1    9500 3500
 	-1   0    0    1   
 $EndComp
@@ -531,7 +538,10 @@ P 5400 3800
 F 0 "U301" H 5400 4441 39  0000 C CNN
 F 1 "Regulador_LM5161" H 5400 4366 39  0000 C CNN
 F 2 "Package_SO:TSSOP-14-1EP_4.4x5mm_P0.65mm" H 5400 3800 39  0001 C CNN
-F 3 "" H 5400 3800 39  0001 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Flm5161-q1" H 5400 3800 39  0001 C CNN
+F 4 "296-47791-2-ND" H 5400 3800 50  0001 C CNN "digikey#"
+F 5 "Texas Instruments" H 5400 3800 50  0001 C CNN "manf"
+F 6 "LM5161QPWPRQ1" H 5400 3800 50  0001 C CNN "manf#"
 	1    5400 3800
 	1    0    0    -1  
 $EndComp
