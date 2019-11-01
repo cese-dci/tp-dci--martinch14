@@ -6,8 +6,7 @@ conectado con el módulo del microcontrolador ESP32
 Martin Abel Gambarotta
 8vo Cohorte
 
-
-### Renders del proyecto:
+View 3D
 
 ![Alt text](tecsci_dip/tecsci_dip/tecsci_dip.png)
 
